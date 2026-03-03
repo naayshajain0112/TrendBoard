@@ -82,7 +82,7 @@ export default function Home() {
           item.source?.toLowerCase().includes(q)
       );
     }
-    return result.slice(0, 6);
+    return result.slice(0, 60);
   }, [news, activeCategory, search]);
 
   const now = new Date();
